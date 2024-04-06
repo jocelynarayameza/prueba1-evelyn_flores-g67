@@ -15,15 +15,18 @@
     ></script>
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>CV Evelyn Flores</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="home">
         <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              > <span>EVELYN FLORES</span></a>
+            <a class="navbar-brand" href="#home"
+              > <span class="fw-semibold">EVELYN FLORES</span></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -38,18 +41,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link text-light" aria-current="page" href="#"
+                  <a class="nav-link text-light" aria-current="page" href="#sobremi"
                     >Sobre mí</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Educación</a>
+                  <a class="nav-link text-light" href="#eduex">Educación</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Experiencia</a>
+                  <a class="nav-link text-light" href="#eduex">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Portafolio</a>
+                    <a class="nav-link text-light" href="#portafolio">Portafolio</a>
                   </li>
               </ul>
             </div>
@@ -57,52 +60,55 @@
         </nav>
       </nav>
     </header>
-<section>
+<section id="sobremi">
 <div class="container">
     <div class="row mt-5 mb-5">
         <div class="col-sm-12 col-md-6">
             <img src="./assets/imgs/perfil.jpg" class="img-fluid" width="450px" alt="foto perfil">
         </div>
         <div class="col-sm-12 col-md-6 mt-5">
-            <span>HOLA</span>
-            <h2>Mi nombre es Evelyn Flores</h2> 
+
+            <h2 class="fw-bolder">Mi nombre es Evelyn Flores</h2>
             <h4>Soy Comunicadora Audiovisual, Diseñadora UX/UI y estudiante de Desarrollo Frontend </h4>
+            <br>
             <p>Me gusta estar en constante crecimiento, así es como empecé a explorar en el mundo del diseño y la programación, en esta búsqueda, me he apasionado por el diseño centrado en el usuario y el desarrollo web, buscando soluciones que resuelvan las necesidades de los usuarios, mediante la investigación y el trabajo en equipo. Manejo diferentes habilidades blandas y técnicas, además de variadas herramientas aprendidas tanto en mis estudios de UX/UI, Fronend, como también gracias a mi experiencia de siete años como Comunicadora Audiovisual. </p>
-            <button type="button" class="btn btn-dark btn-lg">Conoce mi trabajo</button>
+            <a href="#portafolio">
+            <button type="button" class="btn btn-secondary btn-lg">Conoce mi trabajo</button>
+        </a>
         </div>
     </div>
 </div>
 </section>
 
-<section class="bg-body-secondary pt-3">
-<h2 class="text-center mt-5 mb-5">EDUCACIÓN Y EXPERIENCIA</h2>
+<section class="bg-body-secondary pt-3 pb-3" id="eduex">
+<h2 class="text-center mt-5 mb-5 fw-bolder">EDUCACIÓN Y EXPERIENCIA</h2>
 
-<div class="container">
+<div class="container text-secondary-emphasis">
     <div class="row">
         <div class="col-sm-12 col-md-6 pe-5 ps-5">
             <div class="card border-light shadow p-3 mb-5 bg-body-tertiary rounded" style="width: auto;">
                 <div class="card-body ms-5">
-                <i class="fa-solid fa-graduation-cap"></i>
+                <i class="fa-solid fa-graduation-cap text-secondary"></i>
                   <h6 class="card-title"></i>2024</h6>
-                  <h4 class="card-subtitle mb-2 text-body-secondary">Desafío Latam</h4>
+                  <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">Desafío Latam</h4>
                   <h5 class="card-text">Desarrollo Frontend</h5>
                 </div>
                 <div class="card-body ms-5">
-                    <i class="fa-solid fa-graduation-cap"></i>
+                    <i class="fa-solid fa-graduation-cap text-secondary"></i>
                       <h6 class="card-title">2021 - 2022</h6>
-                      <h4 class="card-subtitle mb-2 text-body-secondary">Douc UC</h4>
+                      <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">Duoc UC</h4>
                       <h5 class="card-text">Diseño UX/UI</h5>
                     </div>
                     <div class="card-body ms-5">
-                        <i class="fa-solid fa-graduation-cap"></i>
+                        <i class="fa-solid fa-graduation-cap text-secondary"></i>
                           <h6 class="card-title">2022</h6>
-                          <h4 class="card-subtitle mb-2 text-body-secondary">Coder House</h4>
+                          <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">Coder House</h4>
                           <h5 class="card-text">Ux Research</h5>
                         </div>
                         <div class="card-body ms-5">
-                            <i class="fa-solid fa-graduation-cap"></i>
+                            <i class="fa-solid fa-graduation-cap text-secondary"></i>
                               <h6 class="card-title">2011 - 2015</h6>
-                              <h4 class="card-subtitle mb-2 text-body-secondary">I.P Santo Tomás</h4>
+                              <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">I.P Santo Tomás</h4>
                               <h5 class="card-text">Comunicación Audiovisual</h5>
                             </div>
               </div>
@@ -112,27 +118,27 @@
         <div class="col-sm-12 col-md-6 pe-5 ps-5">
             <div class="card border-light shadow p-3 mb-5 bg-body-tertiary rounded" style="width: auto;">
                 <div class="card-body ms-5">
-                    <i class="fa-solid fa-briefcase"></i>
+                    <i class="fa-solid fa-briefcase text-secondary"></i>
                   <h6 class="card-title">2024</h6>
-                  <h4 class="card-subtitle mb-2 text-body-secondary">Upsomedia</h4>
+                  <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">Upsomedia</h4>
                   <h5 class="card-text">Montajista Snapchat</h5>
                 </div>
                 <div class="card-body ms-5">
-                    <i class="fa-solid fa-briefcase"></i>
+                    <i class="fa-solid fa-briefcase text-secondary"></i>
                       <h6 class="card-title">2022</h6>
-                      <h4 class="card-subtitle mb-2 text-body-secondary">Red UC</h4>
+                      <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">Red UC</h4>
                       <h5 class="card-text">Diseño UX/UI</h5>
                     </div>
                     <div class="card-body ms-5">
-                        <i class="fa-solid fa-briefcase"></i>
+                        <i class="fa-solid fa-briefcase text-secondary"></i>
                           <h6 class="card-title">2018 - 2019</h6>
-                          <h4 class="card-subtitle mb-2 text-body-secondary">Classroom TV</h4>
+                          <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">Classroom TV</h4>
                           <h5 class="card-text">Directora Audiovisual</h5>
                         </div>
                         <div class="card-body ms-5">
-                            <i class="fa-solid fa-briefcase"></i>
+                            <i class="fa-solid fa-briefcase text-secondary"></i>
                               <h6 class="card-title">2016 - 2017</h6>
-                              <h4 class="card-subtitle mb-2 text-body-secondary">TVN</h4>
+                              <h4 class="card-subtitle mb-2 text-body-secondary fw-semibold">TVN</h4>
                               <h5 class="card-text">Realizadora Audiovisual</h5>
                             </div>
               </div>
@@ -146,35 +152,43 @@
 </section>   
  
 
-<section>
-    <h2 class="text-center mt-5">PORTAFOLIO</h2>
+<section id="portafolio">
+    <h2 class="text-center mt-5 fw-bolder">PORTAFOLIO</h2>
 
-<div class="container mb-5">
+<div class="container mb-5 pb-3">
     <div class="row">
+        
         <div class="col-sm-12 col-md-4 mt-5">
             <div class="card border-light shadow bg-body-tertiary rounded" style="width: auto;">
+                <a href="https://ahyamenosmal.github.io/d2-eveflores/" target="_blank">
                 <img src="./assets/imgs/portafolio1.jpg" class="card-img-top" alt="proyecto 1">
                 <div class="card-body text-center">
-                  <h5 class="card-text">TODO FRUTAS</h5>
-                </div>
+                  <h5 class="card-text fw-semibold">TODO FRUTAS</h5>
+            </div>
+        </a>
               </div>
+         
         </div>
 
         <div class="col-sm-12 col-md-4 mt-5">
             <div class="card border-light shadow bg-body-tertiary rounded" style="width: auto;">
+                <a href="https://ahyamenosmal.github.io/d3-eveflores/" target="_blank">
                 <img src="./assets/imgs/portafolio2.jpg" class="card-img-top" alt="proyecto 2">
                 <div class="card-body text-center">
-                  <h5 class="card-text">IGUANA PAGE</h4>
+                  <h5 class="card-text fw-semibold">IGUANA PAGE</h4>
                 </div>
-              </div>
+                </a>
+            </div>
         </div>
-
+ 
         <div class="col-sm-12 col-md-4 mt-5">
             <div class="card border-light shadow bg-body-tertiary rounded" style="width: auto;">
+                <a href="https://ahyamenosmal.github.io/d4-eveflores/" target="_blank">
                 <img src="./assets/imgs/portafolio3.jpg" class="card-img-top" alt="proyecto 3">
                 <div class="card-body text-center">
-                  <h5 class="card-text">CUPPON</h5>
+                  <h5 class="card-text fw-semibold">CUPPON</h5>
                 </div>
+            </a>
               </div>
         </div>
 
@@ -182,19 +196,6 @@
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
 
 
@@ -205,5 +206,11 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+<footer class="text-center pt-4 pb-2 bg-secondary text-white">
+    <a href="#home">
+    <p>© 2024 ahyamenosmal. Todos los derechos reservados. </p>
+</a>
+</footer>
   </body>
 </html>
