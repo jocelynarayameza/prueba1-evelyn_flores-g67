@@ -1,0 +1,12 @@
+a{
+    color: inherit;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
